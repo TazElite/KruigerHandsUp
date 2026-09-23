@@ -45,3 +45,18 @@ local stance = exports['KruigerHandsUp']:GetSurrenderStance()
 ## Configuration
 
 Edit `config.lua` to change the hands-up key, commands, animations, animation flags, or disabled controls.
+
+## 📚 Documentation
+
+For complete installation, configuration, commands, permissions, usage, and troubleshooting, see the official Kruiger Labs documentation.
+
+**📖 Full Documentation:**  
+https://kruigerlabs.xyz/docs/free-scripts/kruigerhandsup
+
+**📚 Documentation Center:**  
+https://kruigerlabs.xyz/docs/
+
+**❓ FAQ:**  
+https://kruigerlabs.xyz/docs/faq
+
+> For the most up-to-date setup instructions, always refer to the Kruiger Labs Documentation Center.
