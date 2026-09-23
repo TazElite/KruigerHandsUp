@@ -1,3 +1,5 @@
+![KruigerHandsUp](images/KruigerHandsUp-Banner.png)
+
 # KruigerHandsUp v1.1.0
 
 A lightweight standalone surrender-animation resource for FiveM by Kruiger Labs LLC.
