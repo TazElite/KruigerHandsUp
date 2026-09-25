@@ -1,66 +1,44 @@
 ![KruigerHandsUp](images/KruigerHandsUp-Banner.png)
 
-# KruigerHandsUp v1.1.0
+# KruigerHandsUp — Free FiveM Hands Up & Kneel Script
 
-A lightweight standalone surrender-animation resource for FiveM by Kruiger Labs LLC.
+KruigerHandsUp is a lightweight **standalone FiveM hands up script** with surrender and kneeling stances. It includes `/handsup`, `/huk`, configurable controls and client exports for integration with other FiveM resources.
 
 ## Features
-
 - **X** toggles hands up/down
 - `/handsup` toggles hands up/down
-- `/huk` toggles the hands-on-knees/kneeling stance
-- `/huk` keeps the player's currently selected weapon rather than forcibly removing or switching it
-- Switching between `/handsup` and `/huk` automatically stops the previous stance
-- Standalone; no framework dependency
-- Cancels the stance when dead, ragdolling, or entering a vehicle
-- Blocks attacking, aiming, reloading, melee, and the weapon wheel while surrendering
+- `/huk` toggles hands-on-knees/kneeling stance
+- Keeps the player's selected weapon when using `/huk`
+- Automatically switches cleanly between surrender stances
+- Cancels when dead, ragdolling, or entering a vehicle
+- Blocks attacking, aiming, reloading, melee, and weapon wheel while surrendering
 - Configurable animations and controls
 - Client exports for integrations
+- Standalone; no framework dependency
 
 ## Installation
-
 Place `KruigerHandsUp` in your resources folder and add:
-
 ```cfg
 ensure KruigerHandsUp
 ```
 
 ## Commands
-
 ```text
 /handsup
 /huk
 ```
 
 ## Exports
-
 ```lua
 local handsUp = exports['KruigerHandsUp']:IsHandsUp()
 local huk = exports['KruigerHandsUp']:IsHUK()
 local stance = exports['KruigerHandsUp']:GetSurrenderStance()
 ```
 
-`stance` returns `handsup`, `huk`, or `nil`.
-
-## Configuration
-
-Edit `config.lua` to change the hands-up key, commands, animations, animation flags, or disabled controls.
+## Documentation
+- Full documentation: https://kruigerlabs.xyz/docs/free-scripts/kruigerhandsup
+- FiveM scripts: https://kruigerlabs.xyz/fivem
+- Documentation center: https://kruigerlabs.xyz/docs/
 
 ## License
-
-Licensed under the **Kruiger Labs Community License v1.0**. You may use and privately modify this resource for your own FiveM server, but redistribution, reuploading, resale, sublicensing, and claiming the work as your own are prohibited. See the `LICENSE` file for the complete terms.
-
-## 📚 Documentation
-
-For complete installation, configuration, commands, permissions, usage, and troubleshooting, see the official Kruiger Labs documentation.
-
-**📖 Full Documentation:**  
-https://kruigerlabs.xyz/docs/free-scripts/kruigerhandsup
-
-**📚 Documentation Center:**  
-https://kruigerlabs.xyz/docs/
-
-**❓ FAQ:**  
-https://kruigerlabs.xyz/docs/faq
-
-> For the most up-to-date setup instructions, always refer to the Kruiger Labs Documentation Center.
+Licensed under the **Kruiger Labs Community License v1.0**. See `LICENSE` for complete terms.
