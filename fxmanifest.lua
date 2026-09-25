@@ -3,7 +3,7 @@ game 'gta5'
 
 name 'KruigerHandsUp'
 author 'Kruiger Labs LLC'
-description 'Simple optimized hands-up toggle for FiveM.'
+description 'Free standalone FiveM hands up and kneel script with configurable surrender controls.'
 version '1.0.0'
 
 client_script 'config.lua'
